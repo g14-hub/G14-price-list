@@ -1,78 +1,349 @@
 {
  "format": "grow-prices",
  "v": 1,
- "asOf": "2026-09-24",
+ "asOf": "2026-09-26",
  "items": {
-  "1": {"price": 34.66, "pack": 3},
-  "2": {"price": 34.66, "pack": 6},
-  "3": {"price": 24.74, "pack": 3},
-  "4": {"price": 29.26, "pack": 3},
-  "5": {"price": 15.37, "pack": 3},
-  "6": {"price": 24.74, "pack": 3},
-  "7": {"price": 12.37, "pack": 3},
-  "8": {"price": 36.69, "pack": 3},
-  "9": {"price": 69.42, "pack": 12},
-  "10": {"price": 44.58, "pack": 3},
-  "11": {"price": 148.71, "pack": 10},
-  "12": {"price": 15.82, "pack": 1},
-  "13": {"price": 24.74, "pack": 3},
-  "14": {"price": 32, "pack": 3},
-  "15": {"price": 31.5, "pack": 3},
-  "16": {"price": 38},
-  "17": {"price": 20, "pack": 3},
-  "18": {"price": 21.5, "pack": 3},
-  "19": {"price": 23, "pack": 3},
-  "20": {"price": 21.5, "pack": 3},
-  "21": {"price": 48, "pack": 10},
-  "22": {"price": 60, "pack": 10},
-  "23": {"price": 60, "pack": 10},
-  "24": {"price": 23, "pack": 3},
-  "25": {"price": 25, "pack": 3},
-  "26": {"price": 20, "pack": 3},
-  "27": {"price": 32.5, "pack": 3},
-  "28": {"price": 60, "pack": 10},
-  "29": {"price": 32.5, "pack": 3},
-  "30": {"price": 32.5, "pack": 3},
-  "31": {"price": 15, "pack": 3},
-  "32": {"price": 43, "pack": 3},
-  "33": {"price": 25, "pack": 3},
-  "34": {"price": 34.5, "pack": 3},
-  "35": {"price": 34.5, "pack": 3},
-  "36": {"price": 21.5, "pack": 3},
-  "37": {"price": 21.5, "pack": 3},
-  "38": {"price": 29, "pack": 3},
-  "39": {"price": 29, "pack": 3},
-  "40": {"price": 25, "pack": 3},
-  "41": {"price": 34.5, "pack": 3},
-  "42": {"price": 25, "pack": 3},
-  "43": {"price": 27, "pack": 3},
-  "44": {"price": 21.5, "pack": 3},
-  "45": {"price": 23, "pack": 3},
-  "46": {"price": 30.5, "pack": 3},
-  "47": {"price": 32.5, "pack": 3},
-  "48": {"price": 30.5, "pack": 3},
-  "49": {"price": 29, "pack": 3},
-  "50": {"price": 23, "pack": 3},
-  "51": {"price": 27, "pack": 3},
-  "52": {"price": 32.5, "pack": 3},
-  "53": {"price": 27, "pack": 3},
-  "54": {"price": 25, "pack": 3},
-  "55": {"price": 38.5, "pack": 3},
-  "56": {"price": 29, "pack": 3},
-  "57": {"price": 26.5, "pack": 3},
-  "58": {"price": 29.5, "pack": 3},
-  "59": {"price": 45.5, "pack": 3},
-  "60": {"price": 23.5, "pack": 3},
-  "61": {"price": 121.5, "pack": 10},
-  "62": {"price": 106.5, "pack": 10},
-  "63": {"price": 56.5, "pack": 10},
-  "64": {"price": 36, "pack": 3},
-  "65": {"price": 41.5, "pack": 3},
-  "66": {"price": 25.5, "pack": 3},
-  "67": {"price": 25, "pack": 3},
-  "68": {"price": 25, "pack": 3},
-  "69": {"price": 22.5, "pack": 3}
+  "1": {
+   "price": 34.95,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "2": {
+   "price": 34.95,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "3": {
+   "price": 24.95,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "4": {
+   "price": 29.5,
+   "pack": 3,
+   "stock": "In stock",
+   "promo": "50% off (site discount, already reflected in this price)"
+  },
+  "5": {
+   "price": 15.5,
+   "pack": 3,
+   "stock": "In stock",
+   "promo": "50% off (site discount, already reflected in this price)"
+  },
+  "6": {
+   "price": 24.95,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "7": {
+   "price": 12.48,
+   "pack": 3,
+   "stock": "In stock",
+   "promo": "50% off (site discount, already reflected in this price)"
+  },
+  "8": {
+   "price": 37,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "9": {
+   "price": 69.42,
+   "pack": 12,
+   "stock": "Out of stock"
+  },
+  "10": {
+   "price": 44.95,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "11": {
+   "price": 149.95,
+   "pack": 10,
+   "stock": "In stock"
+  },
+  "12": {
+   "price": 15.95,
+   "pack": 1,
+   "stock": "In stock"
+  },
+  "13": {
+   "price": 24.95,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "14": {
+   "price": 32,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "15": {
+   "price": 31.5,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "16": {
+   "price": 38,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "17": {
+   "price": 20,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "18": {
+   "price": 21.5,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "19": {
+   "price": 23,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "20": {
+   "price": 21.5,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "21": {
+   "price": 48,
+   "pack": 10,
+   "stock": "In stock"
+  },
+  "22": {
+   "price": 60,
+   "pack": 10,
+   "stock": "In stock"
+  },
+  "23": {
+   "price": 60,
+   "pack": 10,
+   "stock": "In stock"
+  },
+  "24": {
+   "price": 23,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "25": {
+   "price": 25,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "26": {
+   "price": 20,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "27": {
+   "price": 32.5,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "28": {
+   "price": 60,
+   "pack": 10,
+   "stock": "In stock"
+  },
+  "29": {
+   "price": 32.5,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "30": {
+   "price": 32.5,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "31": {
+   "price": 15,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "32": {
+   "price": 43,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "33": {
+   "price": 25,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "34": {
+   "price": 34.5,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "35": {
+   "price": 34.5,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "36": {
+   "price": 21.5,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "37": {
+   "price": 21.5,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "38": {
+   "price": 29,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "39": {
+   "price": 29,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "40": {
+   "price": 25,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "41": {
+   "price": 34.5,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "42": {
+   "price": 25,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "43": {
+   "price": 27,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "44": {
+   "price": 21.5,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "45": {
+   "price": 23,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "46": {
+   "price": 30.5,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "47": {
+   "price": 32.5,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "48": {
+   "price": 30.5,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "49": {
+   "price": 29,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "50": {
+   "price": 23,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "51": {
+   "price": 27,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "52": {
+   "price": 32.5,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "53": {
+   "price": 27,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "54": {
+   "price": 25,
+   "pack": 3
+  },
+  "55": {
+   "price": 38.5,
+   "pack": 3,
+   "stock": "In stock"
+  },
+  "56": {
+   "price": 29,
+   "pack": 3
+  },
+  "57": {
+   "price": 26.5,
+   "pack": 3
+  },
+  "58": {
+   "price": 29.5,
+   "pack": 3
+  },
+  "59": {
+   "price": 45.5,
+   "pack": 3
+  },
+  "60": {
+   "price": 23.5,
+   "pack": 3
+  },
+  "61": {
+   "price": 121.5,
+   "pack": 10
+  },
+  "62": {
+   "price": 106.5,
+   "pack": 10
+  },
+  "63": {
+   "price": 56.5,
+   "pack": 10
+  },
+  "64": {
+   "price": 36,
+   "pack": 3
+  },
+  "65": {
+   "price": 41.5,
+   "pack": 3
+  },
+  "66": {
+   "price": 25.5,
+   "pack": 4,
+   "stock": "In stock",
+   "promo": "3+1 bundle: 4 seeds for the price of 3"
+  },
+  "67": {
+   "price": 25,
+   "pack": 3
+  },
+  "68": {
+   "price": 25,
+   "pack": 3
+  },
+  "69": {
+   "price": 22.5,
+   "pack": 3
+  }
  },
  "new": [],
- "promos": []
+ "promos": [
+  4,
+  5,
+  7,
+  66
+ ]
 }
